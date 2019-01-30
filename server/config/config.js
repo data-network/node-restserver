@@ -2,6 +2,10 @@ process.env.PORT = process.env.PORT || 3000;
 
 process.env.NODE_ENV = process.env.NODE_ENV || 'dev';
 
+process.env.EXP_TOKEN = 60 * 69 * 24 * 30;
+
+process.env.DATA_SEED = process.env.DATA_SEED || 'data-network';
+
 let urlDB;
 
 if (process.env.NODE_ENV === 'dev') {
